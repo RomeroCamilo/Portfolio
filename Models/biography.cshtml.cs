@@ -7,7 +7,7 @@ public class biographyModel : PageModel
 {
     private readonly ILogger<biographyModel> _logger;
 
-    public string Message { get; private set; } = "PageModel in C#";
+    public string Message { get; private set; } = "";
 
     public biographyModel(ILogger<biographyModel> logger)
     {
