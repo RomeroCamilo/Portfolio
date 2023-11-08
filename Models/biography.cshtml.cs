@@ -7,6 +7,8 @@ public class biographyModel : PageModel
 {
     private readonly ILogger<biographyModel> _logger;
 
+    public string Message { get; private set; } = "PageModel in C#";
+
     public biographyModel(ILogger<biographyModel> logger)
     {
         _logger = logger;
@@ -14,6 +16,7 @@ public class biographyModel : PageModel
 
     public void OnGet()
     {
-
+        // once we are loaded into the biography page. 
+        Message += $" Server time is { DateTime.Now }";
     }
 }
