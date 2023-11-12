@@ -1,13 +1,19 @@
 ﻿@page
 @model IndexModel
 
+@inject IHttpClientFactory _httpClientFactory
+
 @{
+    // this stores the command to redeploy dotnet app. replace <os> with either linux or windows. 
+    string redeploy = "az webapp up --os-type <os>";
     ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>@Model.Message</p>
+    <p>@Model.FunctionResponse</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gn19U2lMNnw?autoplay=1" frameborder="0" allowfullscreen></iframe>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
     <button type="button"><a asp-page="/biography">Skills</a></button>
 </div>
