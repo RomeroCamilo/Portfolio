@@ -5,6 +5,8 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
+// razor page index page.
+
 namespace portfolio.Pages
 {
     public class IndexModel : PageModel
@@ -27,16 +29,17 @@ namespace portfolio.Pages
         {
             // Make an HTTP request to the Azure Function here
             var client = _httpClientFactory.CreateClient();
-            var functionUrl = "https://camiloapi.azurewebsites.net/api/helloWorld?";
+            var functionUrl = "https://romeroapi.azurewebsites.net/api/testing";
 
-            // making an api call and storing the response. 
+            // making an api call and storing the response code.
             HttpResponseMessage response = await client.GetAsync(functionUrl);
 
-            /* if sucessful response, store the response */
+            /* if sucessful response code such as 200, get the response */
             if (response.IsSuccessStatusCode)
             {
                 FunctionResponse = await response.Content.ReadAsStringAsync();
             }
+            /* if connection failed ( non 200 code ) */
             else
             {
                 FunctionResponse = "Error: Unable to fetch data from the Azure Function.";

@@ -1,0 +1,25 @@
+@page
+@model ContactModel
+
+@inject IHttpClientFactory _httpClientFactory
+
+@{
+    // this stores the command to redeploy dotnet app. replace <os> with either linux or windows. 
+    string redeploy = "az webapp up --os-type linux";
+    ViewData["Title"] = "Home page";
+
+    // Creating a hash list using Dictionary to store emails.
+    Dictionary<int, string> hashmap = new Dictionary<int, string>();
+    hashmap.Add(0, "romerocamilo24@gmail.com");
+    hashmap.Add(1,"camilo.romero19@myhunter.cuny.edu");
+}
+
+<div class="text-center">
+    <h1 class="display-4">Contact Me!</h1>
+    <button><a href="https://www.linkedin.com/in/camilo-romero-748944210/" target="_blank">LinkedIn</a></button>
+    <p></p>
+    <p>Email:</p>
+    @foreach (var pair in hashmap){
+        <p>@pair.Value</p>
+    }
+</div>
