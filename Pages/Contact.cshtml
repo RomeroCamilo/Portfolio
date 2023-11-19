@@ -12,14 +12,21 @@
     Dictionary<int, string> hashmap = new Dictionary<int, string>();
     hashmap.Add(0, "romerocamilo24@gmail.com");
     hashmap.Add(1,"camilo.romero19@myhunter.cuny.edu");
+    hashmap.Add(2,"camilo.romero@stu.bmcc.cuny.edu");
 }
 
+<head>
+    <!-- Other head elements -->
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
 <div class="text-center">
     <h1 class="display-4">Contact Me!</h1>
-    <button><a href="https://www.linkedin.com/in/camilo-romero-748944210/" target="_blank">LinkedIn</a></button>
+    <button class="linkedin"><a href="https://www.linkedin.com/in/camilo-romero-748944210/" target="_blank">LinkedIn</a></button>
     <p></p>
     <p>Email:</p>
+
     @foreach (var pair in hashmap){
         <p>@pair.Value</p>
     }
+
 </div>
