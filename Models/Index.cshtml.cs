@@ -30,7 +30,7 @@ namespace portfolio.Pages
         {
             // Make an HTTP request to the Azure Function here
             var client = _httpClientFactory.CreateClient();
-            var functionUrl = "https://romeroapi.azurewebsites.net/api/testing";
+            var functionUrl = "https://camiloapi.azurewebsites.net/api/helloWorld";
 
             // making an api call and storing the response code.
             HttpResponseMessage response = await client.GetAsync(functionUrl);
