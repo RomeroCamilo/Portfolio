@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/camiloromero/Desktop/c#/portfolio/portfolio.csproj": {}
+    "/Users/camiloromero/Desktop/Portfolio/portfolio.csproj": {}
   },
   "projects": {
-    "/Users/camiloromero/Desktop/c#/portfolio/portfolio.csproj": {
+    "/Users/camiloromero/Desktop/Portfolio/portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/camiloromero/Desktop/c#/portfolio/portfolio.csproj",
+        "projectUniqueName": "/Users/camiloromero/Desktop/Portfolio/portfolio.csproj",
         "projectName": "portfolio",
-        "projectPath": "/Users/camiloromero/Desktop/c#/portfolio/portfolio.csproj",
+        "projectPath": "/Users/camiloromero/Desktop/Portfolio/portfolio.csproj",
         "packagesPath": "/Users/camiloromero/.nuget/packages/",
-        "outputPath": "/Users/camiloromero/Desktop/c#/portfolio/obj/",
+        "outputPath": "/Users/camiloromero/Desktop/Portfolio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/camiloromero/.nuget/NuGet/NuGet.Config"
