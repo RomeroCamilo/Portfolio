@@ -1,6 +1,7 @@
 @page
 @model ContactModel
 
+
 @inject IHttpClientFactory _httpClientFactory
 
 @{
@@ -28,5 +29,15 @@
     }
 
     <h1> Drop your email! </h1>
+
+    <form method="post">
+        <label for="name">Email:</label>
+        <input type="text" id="Email" name="Email" required />
+
+        <label for="email">Name:</label>
+        <input type="email" id="Name" name="Name" required />
+
+        <button type="submit">Submit</button>
+    </form>
 
 </div>
