@@ -30,7 +30,6 @@
 /Users/camiloromero/Desktop/c#/portfolio/obj/Debug/net7.0/portfolio.genruntimeconfig.cache
 /Users/camiloromero/Desktop/c#/portfolio/obj/Debug/net7.0/ref/portfolio.dll
 /Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/appsettings.Development.json
-/Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/appsettings.json
 /Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/portfolio.staticwebassets.runtime.json
 /Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/portfolio
 /Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/portfolio.deps.json
@@ -60,3 +59,7 @@
 /Users/camiloromero/Desktop/Portfolio/obj/Debug/net7.0/portfolio.pdb
 /Users/camiloromero/Desktop/Portfolio/obj/Debug/net7.0/portfolio.genruntimeconfig.cache
 /Users/camiloromero/Desktop/Portfolio/obj/Debug/net7.0/ref/portfolio.dll
+/Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/host.json
+/Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/local.settings.json
+/Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/read/function.json
+/Users/camiloromero/Desktop/Portfolio/bin/Debug/net7.0/Upsert/function.json
