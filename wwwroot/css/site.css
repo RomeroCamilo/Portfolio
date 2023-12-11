@@ -19,7 +19,8 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color:	white;
+  background-color:	#1f1f1f;
+  color:white;
 }
 
 .linkedin {
@@ -29,7 +30,6 @@ body {
   border-style: none;
   font-weight: bold;
 }
-
 
 a {
   text-decoration: none;
