@@ -20,24 +20,37 @@
     <!-- Other head elements -->
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<div class="text-center">
+<div class="text-center fs-5">
     <h1 class="display-4">Get in touch!</h1>
-    <button class="linkedin"><a href="https://www.linkedin.com/in/camilo-romero-748944210/" target="_blank">LinkedIn</a></button>
+    <a class="btn btn-primary" href="https://www.linkedin.com/in/camilo-romero-748944210/" target="_blank" role="button">LinkedIn</a>
 
     @foreach (var pair in hashmap){
-        <p>@pair.Value</p>
+       // <p>@pair.Value</p>
     }
 
-    <h1> Drop your email! </h1>
+    <h2>@("or")</h2>
+    <h1>@("Drop your email!")</h1>
 
-    <form method="post">
-        <label for="email">Email:</label>
-        <input type="email" id="Email" name="Email" required />
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <form method="post">
+                    <div class="mb-3">
+                        <label for="email">Email:</label>
+                        <input type="email" id="Email" name="Email" required class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="name">Name:</label>
+                        <input type="text" id="Name" name="Name" required class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
-        <label for="name">Name:</label>
-        <input type="text" id="Name" name="Name" required />
 
-        <button type="submit">Submit</button>
-    </form>
+    
 
 </div>
+
