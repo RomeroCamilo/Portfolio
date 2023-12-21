@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets/portfolio.bundle.scp.css"
     },
     {
-      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/camiloromero.jpg",
-      "PackagePath": "staticwebassets/camiloromero.jpg"
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
     },
     {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/css/site.css",
@@ -247,6 +247,10 @@
     {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/statue.png",
+      "PackagePath": "staticwebassets/statue.png"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.portfolio.props",

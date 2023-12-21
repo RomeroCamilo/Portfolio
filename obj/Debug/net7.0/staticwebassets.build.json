@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JZtmAlFd9DP0Vu+e/PZwIJi7jT7Xke06r+RmuanFUko=",
+  "Hash": "ypgpcZQ0G/JqzFC4O+jYRtOCBMjL0wP5fws777U/p9c=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "/Users/camiloromero/Desktop/Portfolio/obj/Debug/net7.0/scopedcss/projectbundle/portfolio.bundle.scp.css"
     },
     {
-      "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/camiloromero.jpg",
+      "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/.DS_Store",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/camiloromero/Desktop/Portfolio/wwwroot/",
       "BasePath": "_content/portfolio",
-      "RelativePath": "camiloromero.jpg",
+      "RelativePath": ".DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/camiloromero.jpg"
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/css/site.css",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/statue.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/camiloromero/Desktop/Portfolio/wwwroot/",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "statue.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/statue.png"
     }
   ]
 }
