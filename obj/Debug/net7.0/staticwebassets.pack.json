@@ -9,6 +9,30 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/game.png",
+      "PackagePath": "staticwebassets/assets/game.png"
+    },
+    {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/.DS_Store",
+      "PackagePath": "staticwebassets/assets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/camiloromero.jpg",
+      "PackagePath": "staticwebassets/assets/images/camiloromero.jpg"
+    },
+    {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/github.svg",
+      "PackagePath": "staticwebassets/assets/images/github.svg"
+    },
+    {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/statue.png",
+      "PackagePath": "staticwebassets/assets/images/statue.png"
+    },
+    {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -247,10 +271,6 @@
     {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
-    },
-    {
-      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/statue.png",
-      "PackagePath": "staticwebassets/statue.png"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.portfolio.props",

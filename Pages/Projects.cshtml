@@ -1,0 +1,17 @@
+@page
+@model ProjectsModel
+
+@inject IHttpClientFactory _httpClientFactory
+
+@{
+    // this stores the command to redeploy dotnet app. replace <os> with either linux or windows. 
+    string redeploy = "az webapp up --os-type linux";
+    ViewData["Title"] = "Home page";
+    string game = "assets/images/game.png";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Projects</h1>
+    <img src="@game" width=500 height=300>
+</div>
