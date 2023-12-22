@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3TSszAbLWRe5ll5pVjhzcPiD0+F8+0ratnLeS+ZKu30=",
+  "Hash": "WWlzJrvKnGcvJWHax5FEcPQga2ValP4jBn80bqGvsqk=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -85,23 +85,6 @@
       "OriginalItemSpec": "wwwroot/assets/.DS_Store"
     },
     {
-      "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/game.png",
-      "SourceId": "portfolio",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/camiloromero/Desktop/Portfolio/wwwroot/",
-      "BasePath": "_content/portfolio",
-      "RelativePath": "assets/game.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/game.png"
-    },
-    {
       "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/.DS_Store",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -136,6 +119,23 @@
       "OriginalItemSpec": "wwwroot/assets/images/camiloromero.jpg"
     },
     {
+      "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/game.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/camiloromero/Desktop/Portfolio/wwwroot/",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "assets/images/game.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/images/game.png"
+    },
+    {
       "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/github.svg",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/images/statue.png"
+    },
+    {
+      "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/vitaminverse.png",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/camiloromero/Desktop/Portfolio/wwwroot/",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "assets/images/vitaminverse.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/images/vitaminverse.png"
     },
     {
       "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/css/site.css",

@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets/assets/.DS_Store"
     },
     {
-      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/game.png",
-      "PackagePath": "staticwebassets/assets/game.png"
-    },
-    {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/.DS_Store",
       "PackagePath": "staticwebassets/assets/images/.DS_Store"
     },
@@ -25,12 +21,20 @@
       "PackagePath": "staticwebassets/assets/images/camiloromero.jpg"
     },
     {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/game.png",
+      "PackagePath": "staticwebassets/assets/images/game.png"
+    },
+    {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/github.svg",
       "PackagePath": "staticwebassets/assets/images/github.svg"
     },
     {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/statue.png",
       "PackagePath": "staticwebassets/assets/images/statue.png"
+    },
+    {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/vitaminverse.png",
+      "PackagePath": "staticwebassets/assets/images/vitaminverse.png"
     },
     {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/css/site.css",
