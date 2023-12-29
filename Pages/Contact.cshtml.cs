@@ -52,21 +52,13 @@ namespace portfolio.Pages
                 HttpResponseMessage response = await client.PostAsync(azureEndpoint, content);
 
                 // Check if the request was successful (status code 2xx)
-                if (response.IsSuccessStatusCode)
-                {
-                    // Set a message to be displayed in the view
-                    TempData["SuccessMessage"] = "Email sent!";
-                    return RedirectToPage("/Contact");
-                }
-                else
-                {
-                    while(!response.IsSuccessStatusCode)
-                        response = await client.PostAsync(azureEndpoint, content);
+                while(!response.IsSuccessStatusCode)
+                    response = await client.PostAsync(azureEndpoint, content);
 
-                    // Set a message to be displayed in the view
-                    TempData["SuccessMessage"] = "Email sent!";
-                    return RedirectToPage("/Contact");
-                }
+                // Set a message to be displayed in the view
+                TempData["SuccessMessage"] = "Email sent!";
+                return RedirectToPage("/Contact");
+                
 
             }
         }
