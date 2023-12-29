@@ -1,0 +1,17 @@
+@page
+@model resumeModel
+
+@{
+
+    //setting whether we want to show the image or not dynamically.
+    bool showResume = true;
+    string resumePath = "assets/images/resume.jpg";
+}
+
+<div class="text-center">
+    
+    
+    @if(showResume){
+        <img src="@resumePath" width=60%>
+    }
+</div>
