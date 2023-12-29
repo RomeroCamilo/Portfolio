@@ -16,6 +16,18 @@
     hashmap.Add(2,"camilo.romero@stu.bmcc.cuny.edu");
 }
 
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var successMessage = '@TempData["SuccessMessage"]';
+            if (successMessage) {
+                // Display a pop-up or any other UI element to show the success message
+                alert(successMessage);
+            }
+        });
+    </script>
+}
+
 <head>
     <!-- Other head elements -->
     <link rel="stylesheet" href="~/css/site.css" />
@@ -34,6 +46,7 @@
     <div class="container-sm" style="padding:30px;">
         <div class="row justify-content-center">
             <div class="col-md-3">
+
                 <form method="post">
                     <div class="mb-3">
                         <label for="email">Email:</label>
@@ -45,6 +58,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+
             </div>
         </div>
     </div>

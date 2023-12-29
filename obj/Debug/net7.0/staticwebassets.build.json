@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WWlzJrvKnGcvJWHax5FEcPQga2ValP4jBn80bqGvsqk=",
+  "Hash": "LqgiAHHVhzC11wZY6T5148LznsqCLp9l79jt3aHnHPk=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/images/github.svg"
+    },
+    {
+      "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/resume.jpg",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/camiloromero/Desktop/Portfolio/wwwroot/",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "assets/images/resume.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/images/resume.jpg"
     },
     {
       "Identity": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/statue.png",

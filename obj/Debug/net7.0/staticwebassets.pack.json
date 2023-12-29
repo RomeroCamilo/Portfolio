@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets/assets/images/github.svg"
     },
     {
+      "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/resume.jpg",
+      "PackagePath": "staticwebassets/assets/images/resume.jpg"
+    },
+    {
       "Id": "/Users/camiloromero/Desktop/Portfolio/wwwroot/assets/images/statue.png",
       "PackagePath": "staticwebassets/assets/images/statue.png"
     },

@@ -48,18 +48,23 @@ namespace portfolio.Pages
                 // Create the HttpContent with JSON data
                 var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
 
-                // Send the POST request to the Azure endpoint
+                // Send the POST request to the Azure endpoint with the data
                 HttpResponseMessage response = await client.PostAsync(azureEndpoint, content);
 
-            // Check if the request was successful (status code 2xx)
+                // Check if the request was successful (status code 2xx)
                 if (response.IsSuccessStatusCode)
                 {
                     // Set a message to be displayed in the view
+                    TempData["SuccessMessage"] = "Email sent!";
                     return RedirectToPage("/Contact");
                 }
                 else
                 {
-                    // Set an error message if needed
+                    while(!response.IsSuccessStatusCode)
+                        response = await client.PostAsync(azureEndpoint, content);
+
+                    // Set a message to be displayed in the view
+                    TempData["SuccessMessage"] = "Email sent!";
                     return RedirectToPage("/Contact");
                 }
 
