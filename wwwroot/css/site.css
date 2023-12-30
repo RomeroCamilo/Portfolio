@@ -20,6 +20,7 @@ html {
 body {
   margin-bottom: 60px;
   background-color:	#1f1f1f;
+  background-image: url('assets/images/christmas.jpg');;
   color:white;
 }
 

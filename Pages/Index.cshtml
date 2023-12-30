@@ -7,13 +7,13 @@
     // this stores the command to redeploy dotnet app. replace <os> with either linux or windows. 
     string redeploy = "az webapp up --os-type linux";
     ViewData["Title"] = "Home page";
+    string img_path = "assets/images/camiloromero.jpg";
 }
 
 
 <div class="text-center">
     <p class="fs-4">Hello there! My name is</p>
-    <h1 class="display-3 text-primary">Camilo Romero</h1>
-    <p>@Model.Message</p>
-    <p>@Model.FunctionResponse</p>
-
+    <h1 class="display-3 text-primary font-italic">Camilo Romero</h1>
+    <h2>software engineer.</h2>
+    <img src="@img_path" width=25% height=20%>
 </div>
